@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="comp.css">
+    <title>otto-cycle</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    <h3>Otto-Cycle Efficiency Table</h3>
+    <table id="table">
+        <tr>
+            <th>Compression Ratio</th>
+            <th>Efficiency</th>
+        </tr>
+    </table>
+    <br>
+    <canvas id="myChart" width="400" height="200">
+    </canvas>
+    <br>
+    <h1>If You Want to Calculate Single Value,Enter The Value in the Given Below Box.</h1>
+    <div class="box">
+        <h2><i>Calculate The Efficiency Of Otto cycle</i></h2>
+        <div class="input-div">
+            <label for="rvalue">Enter a Compression Ratio Value:</label>
+            <input type="text"  id="rvalue" >
+        </div>
+        <div class="button-div">
+                <button onclick="CalculateEfficiency()">Calculate The Efficiency</button>
+        </div>
+        <div id="result"></div>
+        </div>
+
+
+    <script src="comp.js">
+        
+        
+    </script>
+
+    
+</body>
+</html>
